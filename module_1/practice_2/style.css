@@ -3,10 +3,30 @@
     max-width: 1650px;
     background-color: white;
     margin: -10px auto;
+    margin-bottom: 100px;
 }
 
 ul{
     list-style-type: none;
+}
+
+.logo{
+    margin-top: 7px;
+    text-decoration: none;
+}
+
+.logo p{
+    color: #A55C30;
+    font-size: 32px;
+    font-family: 'Lora';
+}
+
+.logo p:nth-child(1){
+    font-weight: bold;
+}
+
+.logo p:nth-child(2){
+    font-style: italic;
 }
 
 nav {
@@ -14,17 +34,25 @@ nav {
     justify-content: space-between;
     height: 70px;
     align-items: center;
-    border-radius: 3px;
 }
 
 nav .nav_list{
     display: flex;
     justify-content: space-between;
-    width: 80%;
+    width: 50%;
 }
 
 header{
     width: 100%;
+    position: sticky;
+    top: 0;
+    background-color: white;
+    border-bottom: 3px solid #A55C30;
+}
+
+main{
+    width: 100%;
+    margin-top: 100px;
 }
 
 /* a{
@@ -55,11 +83,404 @@ header{
 }
 
 .rectangle{
-    position: absolute;
-width: 9px;
-height: 261px;
-left: 123px;
-top: 292px;
+    width: 9px;
+    height: 300px;
+    background: #F8D7A4;
+}
 
-background: #F8D7A4;
+.post_header {
+    display: flex;
+    justify-content: space-between;
+    height: 70px;
+    align-items: center;
+    width: 100%;
+    margin-top: 250px;
+}
+
+.premium{
+    font-family: 'Lora';
+    line-height: 81.92px;
+    font-size: 62px;
+    margin-left: -300px;
+}
+
+.car{
+    background-image: url("./img/bej.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 700px;
+    margin-top: 300px;
+}
+
+.post_head--img{
+    margin-top: 100px;
+    width: 110%;
+    margin-left: -130px;
+}
+
+.about{
+    margin-top: 500px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.about--div{
+    margin-left: 300px;
+    width: 90%;
+}
+
+.about h1{
+    font-size: 60px;
+    color: #A55C30;
+    font-family: 'Lora';
+    font-weight: bold;
+    margin-top: -10px;
+}
+
+.about p{
+    font-size: 21px;
+    line-height: 30.2px;
+    font-family: 'Nunito Sans';
+    margin-bottom: -4px;
+    color: #232730;
+}
+
+.services--h1{
+    display: flex;
+    justify-content: center;
+}
+
+.star{
+    display: flex;
+    justify-content: center;
+}
+
+.services--h1 h1{
+    font-family: 'Lora';
+    font-weight: bold;
+    color: #A55C30;
+    font-size: 48px;
+    margin-top: 100px;
+}
+
+.services{
+    margin-top: 100px;
+    background-image: url("./img/e\ class.jpg");
+    width: 1645px;
+    height: 900px;
+    background-size: 90%;
+    background-color: black;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.services--divs{
+    margin-top: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.services--divs div{
+    display: flex;
+    justify-content: center;
+    margin: 0px 30px;
+    width: 100%;
+    border-radius: 10px;
+    flex-wrap: wrap;
+    padding-bottom: 50px;
+}
+
+/* .services--divs div img{
+    
+} */
+
+.services--divs div div{
+    clear: left;
+    color: aliceblue;
+}
+
+.services--divs div div h1{
+    font-family: 'Nunito Sans';
+    font-size: 30px;
+    font-weight: bold;
+}
+
+.services--divs div div p{
+    font-family: 'Nunito Sans';
+    font-size: 20px;
+    text-indent: 20px;
+}
+
+.fleet{
+    margin-top: 100px;
+    background-color: rgb(232, 232, 232);
+}
+
+.fleet--1 h1{
+    font-family: 'Lora';
+    font-weight: bold;
+    font-size: 56px;
+    color: #A55C30;
+}
+
+.fleet--1{
+    display: flex;
+    justify-content: center;
+}
+
+.fleet--2{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.fleet--2 div{
+    display: flex;
+    justify-content: center;
+    background-color: white;
+    margin: 0px 30px;
+    width: 100%;
+    margin-bottom: 100px;
+    border-radius: 10px;
+    flex-wrap: wrap;
+    padding-bottom: 50px;
+}
+
+.fleet--2 div h1{
+    font-family: 'Nunito Sans';
+    color: #A55C30;
+    font-size: 40px;
+    flex-wrap: wrap;
+    margin-bottom: -90px;
+    margin-top: -27px;
+}
+
+.fleet--2 div p{
+    margin: 0px 40px;
+    flex-wrap: wrap;
+    font-family: 'Nunito Sans';
+    font-size: 17px;
+    text-align: center;
+}
+
+.numbers{
+    display: flex;
+    justify-content: space-around;
+    background-color: #232222;
+    padding-bottom: 40px;
+}
+
+.numbers div h1{
+    font-family: 'Noto Sans'; font-weight: bolder; font-size: 80px; text-align: center; color: white;
+}
+
+.numbers div p{
+    font-family: 'Noto Sans'; font-size: 30px; text-align: center; margin-top: -40px; color: white;
+}
+
+.testimonials h1{
+    font-family: 'Lora';
+    font-weight: bold;
+    font-size: 55px;
+    text-align: center;
+    color: #A55C30;
+}
+
+.testimonials{
+    min-height: 700px;
+    background-color: #F8D7A4;
+    padding-top: 8px;
+    padding: 40px;
+}
+
+.opinion{
+    display: flex;
+    justify-content: space-around;
+    margin: 50px;
+    background-color: white;
+    padding: 80px;
+    align-items: center;
+}
+
+.test--text{
+    margin-top: 30px;
+}
+
+.opinion div img{
+    border-radius: 100%;
+}
+
+.opinion div h2{
+    font-family: 'Nunito Sans';
+    font-weight: bold;
+    font-size: 36px;
+    text-align: center;
+}
+
+.opinion div h3{
+    font-family: 'Nunito Sans';
+    font-weight: 300;
+    font-style: italic;
+    font-size: 28px;
+    text-align: center;
+    margin-top: -30px;
+}
+
+.opinion div h4{
+    font-family: 'Nunito Sans';
+    font-style: italic;
+    font-weight: 500;
+    text-align: center;
+    font-size: 28px;
+}
+
+.icons i{
+    color: #F8D7A4;
+    margin: 0px 15px;
+    font-size: 225%;
+}
+
+.booking{
+    background-image: url("./img/e\ class.jpg");
+    background-position: center;
+    text-align: center;
+    color: white;
+    padding: 90px;
+}
+
+.booking h2{
+    font-family: 'Noto Sans';
+    font-size: 38px;
+}
+
+.booking h1{
+    font-family: 'Noto Sans';
+    font-weight: 600;
+    font-size: 60px;
+}
+
+.contact{
+    text-align: center;
+    padding: 80px;
+}
+
+.contact h1{
+    font-family: 'Lora';
+    color: #A55C30;
+    font-weight: bold;
+    font-size: 60px;
+}
+
+.contact--table{
+    background-color: rgb(232, 232, 232);
+    margin: auto;
+    padding: 80px;
+    width: 60%;
+}
+
+input{
+    border: none;
+    margin: 15px;
+    font-size: 150%;
+    padding: 10px;
+    font-family: 'Lato';
+    font-size: 18px;
+    width: 70%;
+    color: rgb(212, 212, 212);
+}
+
+::-webkit-input-placeholder { /* Chrome/Opera/Safari */
+    color: rgb(212, 212, 212);
+}
+
+.contact--table button{
+    margin: 15px;
+    padding: 10px 20px;
+    font-family: 'Lato';
+    font-weight: bold;
+    font-size: 21px;
+    color: white;
+    background-color: #A55C30;
+    border: none;
+    width: 45%;
+}
+
+footer div{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.footer--lux p{
+    color: #A55C30;
+    font-size: 32px;
+    font-family: 'Lora';
+}
+
+.lux{
+    font-weight: bold;
+}
+
+.chaffeur{
+    font-style: italic;
+}
+
+footer{
+    background-color: black;
+    padding: 50px;
+}
+
+.footer--lux{
+    display: grid;
+    grid-template-rows: auto auto auto auto;
+}
+
+.footer--lux h2{
+    color: white;
+    font-family: 'Nunito Sans';
+    font-size: 19px;
+    font-weight: 300;
+    text-align: left;
+}
+
+.footer--lux h1{
+    color: white;
+    font-family: 'Nunito Sans';
+    font-size: 19px;
+    font-weight: 300;
+    text-align: left;
+}
+
+.footer--email h1{
+    color: #A55C30;
+    font-family: 'Nunito Sans';
+    font-weight: 600;
+    font-size: 27px;
+}
+
+.footer--email h2{
+    color: white;
+    font-family: 'Nunito Sans';
+    font-size: 19px;
+    font-weight: 300;
+}
+
+.footer--contact h1{
+    color: #A55C30;
+    font-family: 'Nunito Sans';
+    font-weight: 600;
+    font-size: 27px;
+}
+
+
+
+/* footer{
+    display: flex;
+    justify-content: space-around;
+} */
+
+footer div div{
+    padding: 0px 30px;
 }
