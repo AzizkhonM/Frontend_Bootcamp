@@ -32,14 +32,19 @@ ul{
 nav {
     display: flex;
     justify-content: space-between;
-    height: 70px;
+    height: 80px;
     align-items: center;
+    box-shadow: rgba(33, 35, 38, 0.1) 0px 10px 10px -10px;
 }
 
 nav .nav_list{
     display: flex;
     justify-content: space-between;
     width: 50%;
+}
+
+.menu{
+    display: none;
 }
 
 header{
@@ -483,4 +488,27 @@ footer{
 
 footer div div{
     padding: 0px 30px;
+}
+
+
+
+
+@media only screen and (max-width: 768px){
+
+    nav .nav_list{
+        width: 90%;
+    }
+
+}
+
+@media only screen and (max-width: 576px){
+
+    nav .nav_list{
+        display: none;
+    }
+
+    .menu{
+        display: block;
+    }
+
 }
