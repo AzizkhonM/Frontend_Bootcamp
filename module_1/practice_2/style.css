@@ -1,3 +1,10 @@
+/* *{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+} */
+
+
 .container {
     margin: 0 auto;
     max-width: 1650px;
@@ -412,9 +419,12 @@ input{
     width: 45%;
 }
 
+
+
+
 footer div{
     display: flex;
-    justify-content: space-around;
+    justify-content: space-between;
     align-items: center;
 }
 
@@ -442,6 +452,8 @@ footer{
     grid-template-rows: auto auto auto auto;
 }
 
+
+
 .footer--lux h2{
     color: white;
     font-family: 'Nunito Sans';
@@ -463,6 +475,7 @@ footer{
     font-family: 'Nunito Sans';
     font-weight: 600;
     font-size: 27px;
+    text-align: center;
 }
 
 .footer--email h2{
@@ -490,6 +503,57 @@ footer div div{
     padding: 0px 30px;
 }
 
+.email{
+    font-family: 'Lato';
+    font-size: 20px;
+    border: none;
+    width: 50%;
+    height: 37px;
+}
+
+.email--button{
+    background-color: #A55C30;
+    border: none;
+    color: white;
+    font-size: 22px;
+    font-family: 'Lato';
+    font-weight: bold;
+    height: 56px;
+    padding: 0px 10px;
+}
+
+.footer--contact p{
+    font-size: 20px;
+    color: white;
+    font-size: 20px;
+    font-family: 'Nunito Sans';
+}
+
+.icons i{
+    display: grid;
+    align-items: center;
+    color: white;
+}
+
+
+.line{
+    width: 1250px;
+    background-color: white;
+    border: 0.5px solid white;
+}
+
+.copy{
+    color: white;
+    display: flex;
+    justify-content: center;
+}
+
+.copy p{
+    font-family: 'Nunito Sans';
+    font-size: 16px;
+    font-weight: 300;
+    margin-top: 66px;
+}
 
 
 
