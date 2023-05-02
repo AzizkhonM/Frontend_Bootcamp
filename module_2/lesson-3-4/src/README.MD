@@ -1,0 +1,18 @@
+1. ADMIN DASHBOARD (V.1.0.0)
+2. TAILWIND CSS
+3. VUE ROUTER
+4. STATIC LINKS
+5. AUTH & MULTI LANG
+
+6. THEME (DARK MODE / LIGHT)
+7. SLOT 
+8. REFS 
+9. Computed 
+10. EMIT (custom event)
+
+1. AUTH PAGE
+2. GUARD
+3. DIYNAMIC ROUTING
+4. Router methods
+5. Redirect
+
